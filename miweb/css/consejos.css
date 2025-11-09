@@ -1,0 +1,81 @@
+.cabecera-consejos {
+  background-image: url("../img/cabecera.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 350px;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.marco {
+    background-image: url("../img/marco-flores-vintage-sobre-fondo-blanco_534957-299.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    margin: 40px auto;
+    box-sizing: border-box;             /* ¡CLAVE! Incluye el padding en el 100% del ancho */
+    padding: 20px;                      /* Añade espacio interior para que el texto no toque los bordes del marco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.marco p {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body {
+    background-image: url("../img/fondo-consejos.avif");
+    background-size: cover; /* Cubre toda la pantalla sin distorsionar la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Opcional: fija el fondo para que no se mueva al hacer scroll */
+    margin: 0; /* Elimina el margen predeterminado del body que puede causar bordes */
+    padding: 0;
+}
+
+.Consejos {
+    max-width: 800px; /* Limita el ancho para que el texto sea legible */
+    margin: 40px auto; /* Centra toda la sección en la página */
+    padding: 0 20px; /* Añade un poco de espacio en los lados */
+}
+
+.Consejos h2 {
+    color: #003366; /* Un color bonito para los títulos */
+    border-bottom: 1px solid #ccc; /* Una línea debajo de los títulos */
+    padding-bottom: 5px;
+    text-align: center; /* Si quieres los títulos centrados */
+}
+
+.Consejos p {
+    line-height: 1.6; /* Mejora la legibilidad aumentando el espacio entre líneas */
+   
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Consejos img {
+    display: block;
+    width: 350px;
+    height: 250px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.final {
+    background-image: url("../img/cabecera.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    justify-content: center;
+    padding: 20px;
+}
